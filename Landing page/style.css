@@ -1,0 +1,257 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2em; 
+  }
+  
+  .logo i {
+    color: rgb(0, 152, 48);
+    font-size: 1.5em; 
+    margin-right: 0.5em; 
+  }
+  
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#search {
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Header styles */
+header {
+	background-color: #000000df;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	max-width: 100%;
+	height: auto;
+	margin-right: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+nav {
+	margin-left: auto;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px;
+	transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #f4f1f1;
+	color: #1f1f1f;
+}
+
+/* Main content styles */
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+section {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMlCTNkPGNJRDtA4TuQqQTnJf5iLoQarqPQQ&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+	
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+
+section ul {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+section img {
+	max-width: 100%;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+	.container {
+		padding: 10px;
+	}
+	
+	section {
+		flex-basis: 100%;
+	}
+	
+	nav {
+		display: none;
+	}
+	
+	.search-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.search-container input[type=text] {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	header h1 {
+		font-size: 24px;
+	}
+	
+	nav a {
+		font-size: 14px;
+		padding: 5px;
+	}
+}
+
+footer {
+	background-color: #000000be;
+	padding: 5px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.social-media {
+	margin-top: 10px;
+}
+
+.social-media img {
+	height: 30px;
+	margin-right: 10px;
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("https://static.vecteezy.com/system/resources/previews/006/208/220/original/blue-abstract-gradient-background-with-gold-lining-free-vector.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #f5f5f5;
+  }
+  
+  section {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin: 20px auto;
+	max-width: 600px;
+	padding: 20px;
+  }
+  
+  h2 {
+	color: #333333;
+	font-size: 28px;
+	margin-bottom: 10px;
+  }
+  
+  p {
+	color: #5a5a5a;
+	font-size: 16px;
+	margin-bottom: 20px;
+  }
+  
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  li {
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+  
+  .custom-shape li img {
+	width: 80px;
+	height: 80px;
+  }
+
+  .lists-container {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .list1, .list2 {
+	flex: 1;
+  }
+  
+  
+  .interns-experiences {
+	margin-top: 50px;
+  }
+  
+  .testimonials {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .testimonials li {
+	margin-bottom: 30px;
+	padding: 20px;
+	background-color: #f4f4f4;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	position: relative;
+  }
+  
+  .testimonials li:before {
+	content: "\201C";
+	font-size: 60px;
+	color: #f2b632;
+	position: absolute;
+	left: 0;
+	top: -20px;
+  }
+  
+  .testimonials li p {
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 10px;
+  }
+  
+  .testimonials li .author {
+	font-size: 16px;
+	font-weight: bold;
+  }
+  
+  
